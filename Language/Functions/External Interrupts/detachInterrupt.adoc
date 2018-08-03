@@ -23,7 +23,7 @@ Turns off the given interrupt.
 
 [float]
 === Syntax
-`detachInterrupt()` +
+`detachInterrupt(digitalPinToInterrupt(pin))` +
 `detachInterrupt(pin)` 	(Arduino Due only)
 
 [float]
